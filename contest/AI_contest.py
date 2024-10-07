@@ -10,7 +10,7 @@ def search_on_google(query):
 
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
-        search_results = soup.find_all('div', class_='BNeawe s3v9rd AP7Wnd')
+        search_results = soup.find_all('div', class_='BNeawe s3v9rd AP7Wnd')   # 여기를 수정해야하는데...
 
         results = []
         for result in search_results:
