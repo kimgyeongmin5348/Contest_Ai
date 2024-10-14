@@ -55,9 +55,9 @@ def quickSort(arr,start,end):
     pivot_index = partition(arr, start, end)
     quickSort(arr,start,pivot_index-1)
     quickSort(arr,pivot_index+1,end)
-
-quickSort(words,0,len(words)-1)
-insertionSort(words,0,len(words)-1)
+if __name__ == '--main__':
+    quickSort(words,0,len(words)-1)
+    insertionSort(words,0,len(words)-1)
 
 print(words)
 
