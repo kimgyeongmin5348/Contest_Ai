@@ -8,7 +8,7 @@ def selection(arr, beg, end, nth):
     elif ss < nth:
         return selection(arr, pi + 1, end, nth - ss)
     else:
-        return selection(arr, beg, pi -1, nth)
+        return selection(arr, beg, pi - 1, nth)
 
 def main():
     print(qs.words)
