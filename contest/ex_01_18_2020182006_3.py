@@ -30,8 +30,6 @@ def dijkstra(start):
 
     while min_heap:
         current_distance, u = heapq.heappop(min_heap)
-        if current_distance > distances[u]:
-            continue
 
         for v, weight in graph[u]:
             distance = current_distance + weight
@@ -43,6 +41,11 @@ def dijkstra(start):
     return distances, paths
 
 
-distances, paths = dijkstra(15)
-print("Distances:", distances)
-print("Paths:", paths)
+start = 12
+distances, paths = dijkstra(start)
+
+
+for i in range(num_vertex):
+    if distances[i] < float('inf'):
+        path_str = '-'.join(map(str, paths[i]))
+        print(f"path = '{path_str}' cost = {distances[i]}")
