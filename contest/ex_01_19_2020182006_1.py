@@ -14,21 +14,17 @@ edges=[
 num_vertex = 25
 INF = float('inf')
 
-# Initialize distance matrix with infinity
 D = [[INF] * num_vertex for _ in range(num_vertex)]
-# Initialize predecessor matrix with -1
 P = [[-1] * num_vertex for _ in range(num_vertex)]
 
-# Set diagonal to 0
+
 for i in range(num_vertex):
     D[i][i] = 0
 
-# Fill in the direct edges
 for i, j, w in edges:
     D[i][j] = w
     P[i][j] = i
 
-# Floyd-Warshall algorithm
 for k in range(num_vertex):
     for i in range(num_vertex):
         for j in range(num_vertex):
@@ -45,7 +41,7 @@ def path(i, j):
     else:
         return f'{path(i, P[i][j])}-{j}'
 
-# Print all paths and costs
+
 for i in range(num_vertex):
     for j in range(num_vertex):
         if i != j:
