@@ -1,0 +1,601 @@
+Path from 0 to 1: No path, Cost: inf
+Path from 0 to 2: 0-2, Cost: 267
+Path from 0 to 3: No path, Cost: inf
+Path from 0 to 4: No path, Cost: inf
+Path from 0 to 5: No path, Cost: inf
+Path from 0 to 6: 0-2-6, Cost: 523
+Path from 0 to 7: 0-2-6-7, Cost: 632
+Path from 0 to 8: No path, Cost: inf
+Path from 0 to 9: No path, Cost: inf
+Path from 0 to 10: 0-10, Cost: 292
+Path from 0 to 11: No path, Cost: inf
+Path from 0 to 12: 0-2-6-12, Cost: 881
+Path from 0 to 13: 0-2-6-7-13, Cost: 1097
+Path from 0 to 14: 0-14, Cost: 162
+Path from 0 to 15: No path, Cost: inf
+Path from 0 to 16: 0-10-16, Cost: 577
+Path from 0 to 17: 0-17, Cost: 311
+Path from 0 to 18: 0-14-18, Cost: 613
+Path from 0 to 19: No path, Cost: inf
+Path from 0 to 20: 0-2-20, Cost: 718
+Path from 0 to 21: 0-2-21, Cost: 682
+Path from 0 to 22: 0-2-6-12-22, Cost: 1323
+Path from 0 to 23: 0-23, Cost: 281
+Path from 0 to 24: 0-17-24, Cost: 703
+Path from 1 to 0: No path, Cost: inf
+Path from 1 to 2: No path, Cost: inf
+Path from 1 to 3: No path, Cost: inf
+Path from 1 to 4: No path, Cost: inf
+Path from 1 to 5: No path, Cost: inf
+Path from 1 to 6: No path, Cost: inf
+Path from 1 to 7: No path, Cost: inf
+Path from 1 to 8: No path, Cost: inf
+Path from 1 to 9: No path, Cost: inf
+Path from 1 to 10: No path, Cost: inf
+Path from 1 to 11: 1-11, Cost: 331
+Path from 1 to 12: No path, Cost: inf
+Path from 1 to 13: 1-11-13, Cost: 702
+Path from 1 to 14: No path, Cost: inf
+Path from 1 to 15: No path, Cost: inf
+Path from 1 to 16: No path, Cost: inf
+Path from 1 to 17: No path, Cost: inf
+Path from 1 to 18: No path, Cost: inf
+Path from 1 to 19: 1-19, Cost: 307
+Path from 1 to 20: No path, Cost: inf
+Path from 1 to 21: 1-11-13-21, Cost: 872
+Path from 1 to 22: 1-22, Cost: 395
+Path from 1 to 23: No path, Cost: inf
+Path from 1 to 24: No path, Cost: inf
+Path from 2 to 0: No path, Cost: inf
+Path from 2 to 1: No path, Cost: inf
+Path from 2 to 3: No path, Cost: inf
+Path from 2 to 4: No path, Cost: inf
+Path from 2 to 5: No path, Cost: inf
+Path from 2 to 6: 2-6, Cost: 256
+Path from 2 to 7: 2-6-7, Cost: 365
+Path from 2 to 8: No path, Cost: inf
+Path from 2 to 9: No path, Cost: inf
+Path from 2 to 10: 2-10, Cost: 319
+Path from 2 to 11: No path, Cost: inf
+Path from 2 to 12: 2-6-12, Cost: 614
+Path from 2 to 13: 2-6-7-13, Cost: 830
+Path from 2 to 14: 2-14, Cost: 111
+Path from 2 to 15: No path, Cost: inf
+Path from 2 to 16: 2-16, Cost: 316
+Path from 2 to 17: 2-16-17, Cost: 603
+Path from 2 to 18: 2-18, Cost: 405
+Path from 2 to 19: No path, Cost: inf
+Path from 2 to 20: 2-20, Cost: 451
+Path from 2 to 21: 2-21, Cost: 415
+Path from 2 to 22: 2-6-12-22, Cost: 1056
+Path from 2 to 23: 2-14-23, Cost: 429
+Path from 2 to 24: 2-24, Cost: 488
+Path from 3 to 0: No path, Cost: inf
+Path from 3 to 1: No path, Cost: inf
+Path from 3 to 2: No path, Cost: inf
+Path from 3 to 4: No path, Cost: inf
+Path from 3 to 5: No path, Cost: inf
+Path from 3 to 6: No path, Cost: inf
+Path from 3 to 7: No path, Cost: inf
+Path from 3 to 8: 3-8, Cost: 249
+Path from 3 to 9: 3-8-9, Cost: 355
+Path from 3 to 10: No path, Cost: inf
+Path from 3 to 11: No path, Cost: inf
+Path from 3 to 12: 3-12, Cost: 438
+Path from 3 to 13: 3-12-13, Cost: 681
+Path from 3 to 14: No path, Cost: inf
+Path from 3 to 15: 3-15, Cost: 84
+Path from 3 to 16: No path, Cost: inf
+Path from 3 to 17: No path, Cost: inf
+Path from 3 to 18: 3-12-18, Cost: 802
+Path from 3 to 19: No path, Cost: inf
+Path from 3 to 20: No path, Cost: inf
+Path from 3 to 21: 3-12-21, Cost: 833
+Path from 3 to 22: 3-12-22, Cost: 880
+Path from 3 to 23: No path, Cost: inf
+Path from 3 to 24: No path, Cost: inf
+Path from 4 to 0: No path, Cost: inf
+Path from 4 to 1: No path, Cost: inf
+Path from 4 to 2: No path, Cost: inf
+Path from 4 to 3: No path, Cost: inf
+Path from 4 to 5: No path, Cost: inf
+Path from 4 to 6: No path, Cost: inf
+Path from 4 to 7: 4-7, Cost: 445
+Path from 4 to 8: No path, Cost: inf
+Path from 4 to 9: No path, Cost: inf
+Path from 4 to 10: 4-10, Cost: 53
+Path from 4 to 11: No path, Cost: inf
+Path from 4 to 12: 4-7-12, Cost: 885
+Path from 4 to 13: 4-7-13, Cost: 910
+Path from 4 to 14: 4-7-14, Cost: 655
+Path from 4 to 15: No path, Cost: inf
+Path from 4 to 16: 4-16, Cost: 320
+Path from 4 to 17: 4-17, Cost: 135
+Path from 4 to 18: 4-7-14-18, Cost: 1106
+Path from 4 to 19: No path, Cost: inf
+Path from 4 to 20: 4-20, Cost: 229
+Path from 4 to 21: 4-7-13-21, Cost: 1080
+Path from 4 to 22: 4-7-12-22, Cost: 1327
+Path from 4 to 23: 4-16-23, Cost: 645
+Path from 4 to 24: 4-24, Cost: 298
+Path from 5 to 0: No path, Cost: inf
+Path from 5 to 1: No path, Cost: inf
+Path from 5 to 2: No path, Cost: inf
+Path from 5 to 3: No path, Cost: inf
+Path from 5 to 4: No path, Cost: inf
+Path from 5 to 6: No path, Cost: inf
+Path from 5 to 7: No path, Cost: inf
+Path from 5 to 8: No path, Cost: inf
+Path from 5 to 9: 5-9, Cost: 367
+Path from 5 to 10: No path, Cost: inf
+Path from 5 to 11: No path, Cost: inf
+Path from 5 to 12: No path, Cost: inf
+Path from 5 to 13: 5-13, Cost: 483
+Path from 5 to 14: No path, Cost: inf
+Path from 5 to 15: 5-15, Cost: 261
+Path from 5 to 16: No path, Cost: inf
+Path from 5 to 17: No path, Cost: inf
+Path from 5 to 18: No path, Cost: inf
+Path from 5 to 19: 5-19, Cost: 358
+Path from 5 to 20: No path, Cost: inf
+Path from 5 to 21: 5-13-21, Cost: 653
+Path from 5 to 22: 5-19-22, Cost: 504
+Path from 5 to 23: No path, Cost: inf
+Path from 5 to 24: No path, Cost: inf
+Path from 6 to 0: No path, Cost: inf
+Path from 6 to 1: No path, Cost: inf
+Path from 6 to 2: No path, Cost: inf
+Path from 6 to 3: No path, Cost: inf
+Path from 6 to 4: No path, Cost: inf
+Path from 6 to 5: No path, Cost: inf
+Path from 6 to 7: 6-7, Cost: 109
+Path from 6 to 8: No path, Cost: inf
+Path from 6 to 9: No path, Cost: inf
+Path from 6 to 10: No path, Cost: inf
+Path from 6 to 11: No path, Cost: inf
+Path from 6 to 12: 6-12, Cost: 358
+Path from 6 to 13: 6-7-13, Cost: 574
+Path from 6 to 14: 6-14, Cost: 319
+Path from 6 to 15: No path, Cost: inf
+Path from 6 to 16: 6-16, Cost: 456
+Path from 6 to 17: 6-16-17, Cost: 743
+Path from 6 to 18: 6-18, Cost: 153
+Path from 6 to 19: No path, Cost: inf
+Path from 6 to 20: No path, Cost: inf
+Path from 6 to 21: 6-21, Cost: 465
+Path from 6 to 22: 6-12-22, Cost: 800
+Path from 6 to 23: 6-7-23, Cost: 345
+Path from 6 to 24: 6-16-17-24, Cost: 1135
+Path from 7 to 0: No path, Cost: inf
+Path from 7 to 1: No path, Cost: inf
+Path from 7 to 2: No path, Cost: inf
+Path from 7 to 3: No path, Cost: inf
+Path from 7 to 4: No path, Cost: inf
+Path from 7 to 5: No path, Cost: inf
+Path from 7 to 6: No path, Cost: inf
+Path from 7 to 8: No path, Cost: inf
+Path from 7 to 9: No path, Cost: inf
+Path from 7 to 10: No path, Cost: inf
+Path from 7 to 11: No path, Cost: inf
+Path from 7 to 12: 7-12, Cost: 440
+Path from 7 to 13: 7-13, Cost: 465
+Path from 7 to 14: 7-14, Cost: 210
+Path from 7 to 15: No path, Cost: inf
+Path from 7 to 16: No path, Cost: inf
+Path from 7 to 17: No path, Cost: inf
+Path from 7 to 18: 7-14-18, Cost: 661
+Path from 7 to 19: No path, Cost: inf
+Path from 7 to 20: No path, Cost: inf
+Path from 7 to 21: 7-13-21, Cost: 635
+Path from 7 to 22: 7-12-22, Cost: 882
+Path from 7 to 23: 7-23, Cost: 236
+Path from 7 to 24: No path, Cost: inf
+Path from 8 to 0: No path, Cost: inf
+Path from 8 to 1: No path, Cost: inf
+Path from 8 to 2: No path, Cost: inf
+Path from 8 to 3: No path, Cost: inf
+Path from 8 to 4: No path, Cost: inf
+Path from 8 to 5: No path, Cost: inf
+Path from 8 to 6: No path, Cost: inf
+Path from 8 to 7: No path, Cost: inf
+Path from 8 to 9: 8-9, Cost: 106
+Path from 8 to 10: No path, Cost: inf
+Path from 8 to 11: No path, Cost: inf
+Path from 8 to 12: No path, Cost: inf
+Path from 8 to 13: No path, Cost: inf
+Path from 8 to 14: No path, Cost: inf
+Path from 8 to 15: No path, Cost: inf
+Path from 8 to 16: No path, Cost: inf
+Path from 8 to 17: No path, Cost: inf
+Path from 8 to 18: No path, Cost: inf
+Path from 8 to 19: No path, Cost: inf
+Path from 8 to 20: No path, Cost: inf
+Path from 8 to 21: No path, Cost: inf
+Path from 8 to 22: No path, Cost: inf
+Path from 8 to 23: No path, Cost: inf
+Path from 8 to 24: No path, Cost: inf
+Path from 9 to 0: No path, Cost: inf
+Path from 9 to 1: No path, Cost: inf
+Path from 9 to 2: No path, Cost: inf
+Path from 9 to 3: No path, Cost: inf
+Path from 9 to 4: No path, Cost: inf
+Path from 9 to 5: No path, Cost: inf
+Path from 9 to 6: No path, Cost: inf
+Path from 9 to 7: No path, Cost: inf
+Path from 9 to 8: No path, Cost: inf
+Path from 9 to 10: No path, Cost: inf
+Path from 9 to 11: No path, Cost: inf
+Path from 9 to 12: No path, Cost: inf
+Path from 9 to 13: No path, Cost: inf
+Path from 9 to 14: No path, Cost: inf
+Path from 9 to 15: No path, Cost: inf
+Path from 9 to 16: No path, Cost: inf
+Path from 9 to 17: No path, Cost: inf
+Path from 9 to 18: No path, Cost: inf
+Path from 9 to 19: No path, Cost: inf
+Path from 9 to 20: No path, Cost: inf
+Path from 9 to 21: No path, Cost: inf
+Path from 9 to 22: No path, Cost: inf
+Path from 9 to 23: No path, Cost: inf
+Path from 9 to 24: No path, Cost: inf
+Path from 10 to 0: No path, Cost: inf
+Path from 10 to 1: No path, Cost: inf
+Path from 10 to 2: No path, Cost: inf
+Path from 10 to 3: No path, Cost: inf
+Path from 10 to 4: No path, Cost: inf
+Path from 10 to 5: No path, Cost: inf
+Path from 10 to 6: No path, Cost: inf
+Path from 10 to 7: No path, Cost: inf
+Path from 10 to 8: No path, Cost: inf
+Path from 10 to 9: No path, Cost: inf
+Path from 10 to 11: No path, Cost: inf
+Path from 10 to 12: No path, Cost: inf
+Path from 10 to 13: No path, Cost: inf
+Path from 10 to 14: No path, Cost: inf
+Path from 10 to 15: No path, Cost: inf
+Path from 10 to 16: 10-16, Cost: 285
+Path from 10 to 17: 10-16-17, Cost: 572
+Path from 10 to 18: No path, Cost: inf
+Path from 10 to 19: No path, Cost: inf
+Path from 10 to 20: No path, Cost: inf
+Path from 10 to 21: No path, Cost: inf
+Path from 10 to 22: No path, Cost: inf
+Path from 10 to 23: 10-16-23, Cost: 610
+Path from 10 to 24: 10-16-17-24, Cost: 964
+Path from 11 to 0: No path, Cost: inf
+Path from 11 to 1: No path, Cost: inf
+Path from 11 to 2: No path, Cost: inf
+Path from 11 to 3: No path, Cost: inf
+Path from 11 to 4: No path, Cost: inf
+Path from 11 to 5: No path, Cost: inf
+Path from 11 to 6: No path, Cost: inf
+Path from 11 to 7: No path, Cost: inf
+Path from 11 to 8: No path, Cost: inf
+Path from 11 to 9: No path, Cost: inf
+Path from 11 to 10: No path, Cost: inf
+Path from 11 to 12: No path, Cost: inf
+Path from 11 to 13: 11-13, Cost: 371
+Path from 11 to 14: No path, Cost: inf
+Path from 11 to 15: No path, Cost: inf
+Path from 11 to 16: No path, Cost: inf
+Path from 11 to 17: No path, Cost: inf
+Path from 11 to 18: No path, Cost: inf
+Path from 11 to 19: 11-19, Cost: 53
+Path from 11 to 20: No path, Cost: inf
+Path from 11 to 21: 11-13-21, Cost: 541
+Path from 11 to 22: 11-19-22, Cost: 199
+Path from 11 to 23: No path, Cost: inf
+Path from 11 to 24: No path, Cost: inf
+Path from 12 to 0: No path, Cost: inf
+Path from 12 to 1: No path, Cost: inf
+Path from 12 to 2: No path, Cost: inf
+Path from 12 to 3: No path, Cost: inf
+Path from 12 to 4: No path, Cost: inf
+Path from 12 to 5: No path, Cost: inf
+Path from 12 to 6: No path, Cost: inf
+Path from 12 to 7: No path, Cost: inf
+Path from 12 to 8: No path, Cost: inf
+Path from 12 to 9: No path, Cost: inf
+Path from 12 to 10: No path, Cost: inf
+Path from 12 to 11: No path, Cost: inf
+Path from 12 to 13: 12-13, Cost: 243
+Path from 12 to 14: No path, Cost: inf
+Path from 12 to 15: No path, Cost: inf
+Path from 12 to 16: No path, Cost: inf
+Path from 12 to 17: No path, Cost: inf
+Path from 12 to 18: 12-18, Cost: 364
+Path from 12 to 19: No path, Cost: inf
+Path from 12 to 20: No path, Cost: inf
+Path from 12 to 21: 12-21, Cost: 395
+Path from 12 to 22: 12-22, Cost: 442
+Path from 12 to 23: No path, Cost: inf
+Path from 12 to 24: No path, Cost: inf
+Path from 13 to 0: No path, Cost: inf
+Path from 13 to 1: No path, Cost: inf
+Path from 13 to 2: No path, Cost: inf
+Path from 13 to 3: No path, Cost: inf
+Path from 13 to 4: No path, Cost: inf
+Path from 13 to 5: No path, Cost: inf
+Path from 13 to 6: No path, Cost: inf
+Path from 13 to 7: No path, Cost: inf
+Path from 13 to 8: No path, Cost: inf
+Path from 13 to 9: No path, Cost: inf
+Path from 13 to 10: No path, Cost: inf
+Path from 13 to 11: No path, Cost: inf
+Path from 13 to 12: No path, Cost: inf
+Path from 13 to 14: No path, Cost: inf
+Path from 13 to 15: No path, Cost: inf
+Path from 13 to 16: No path, Cost: inf
+Path from 13 to 17: No path, Cost: inf
+Path from 13 to 18: No path, Cost: inf
+Path from 13 to 19: No path, Cost: inf
+Path from 13 to 20: No path, Cost: inf
+Path from 13 to 21: 13-21, Cost: 170
+Path from 13 to 22: No path, Cost: inf
+Path from 13 to 23: No path, Cost: inf
+Path from 13 to 24: No path, Cost: inf
+Path from 14 to 0: No path, Cost: inf
+Path from 14 to 1: No path, Cost: inf
+Path from 14 to 2: No path, Cost: inf
+Path from 14 to 3: No path, Cost: inf
+Path from 14 to 4: No path, Cost: inf
+Path from 14 to 5: No path, Cost: inf
+Path from 14 to 6: No path, Cost: inf
+Path from 14 to 7: No path, Cost: inf
+Path from 14 to 8: No path, Cost: inf
+Path from 14 to 9: No path, Cost: inf
+Path from 14 to 10: No path, Cost: inf
+Path from 14 to 11: No path, Cost: inf
+Path from 14 to 12: No path, Cost: inf
+Path from 14 to 13: No path, Cost: inf
+Path from 14 to 15: No path, Cost: inf
+Path from 14 to 16: No path, Cost: inf
+Path from 14 to 17: No path, Cost: inf
+Path from 14 to 18: 14-18, Cost: 451
+Path from 14 to 19: No path, Cost: inf
+Path from 14 to 20: No path, Cost: inf
+Path from 14 to 21: No path, Cost: inf
+Path from 14 to 22: No path, Cost: inf
+Path from 14 to 23: 14-23, Cost: 318
+Path from 14 to 24: No path, Cost: inf
+Path from 15 to 0: No path, Cost: inf
+Path from 15 to 1: No path, Cost: inf
+Path from 15 to 2: No path, Cost: inf
+Path from 15 to 3: No path, Cost: inf
+Path from 15 to 4: No path, Cost: inf
+Path from 15 to 5: No path, Cost: inf
+Path from 15 to 6: No path, Cost: inf
+Path from 15 to 7: No path, Cost: inf
+Path from 15 to 8: No path, Cost: inf
+Path from 15 to 9: No path, Cost: inf
+Path from 15 to 10: No path, Cost: inf
+Path from 15 to 11: No path, Cost: inf
+Path from 15 to 12: No path, Cost: inf
+Path from 15 to 13: No path, Cost: inf
+Path from 15 to 14: No path, Cost: inf
+Path from 15 to 16: No path, Cost: inf
+Path from 15 to 17: No path, Cost: inf
+Path from 15 to 18: No path, Cost: inf
+Path from 15 to 19: No path, Cost: inf
+Path from 15 to 20: No path, Cost: inf
+Path from 15 to 21: No path, Cost: inf
+Path from 15 to 22: No path, Cost: inf
+Path from 15 to 23: No path, Cost: inf
+Path from 15 to 24: No path, Cost: inf
+Path from 16 to 0: No path, Cost: inf
+Path from 16 to 1: No path, Cost: inf
+Path from 16 to 2: No path, Cost: inf
+Path from 16 to 3: No path, Cost: inf
+Path from 16 to 4: No path, Cost: inf
+Path from 16 to 5: No path, Cost: inf
+Path from 16 to 6: No path, Cost: inf
+Path from 16 to 7: No path, Cost: inf
+Path from 16 to 8: No path, Cost: inf
+Path from 16 to 9: No path, Cost: inf
+Path from 16 to 10: No path, Cost: inf
+Path from 16 to 11: No path, Cost: inf
+Path from 16 to 12: No path, Cost: inf
+Path from 16 to 13: No path, Cost: inf
+Path from 16 to 14: No path, Cost: inf
+Path from 16 to 15: No path, Cost: inf
+Path from 16 to 17: 16-17, Cost: 287
+Path from 16 to 18: No path, Cost: inf
+Path from 16 to 19: No path, Cost: inf
+Path from 16 to 20: No path, Cost: inf
+Path from 16 to 21: No path, Cost: inf
+Path from 16 to 22: No path, Cost: inf
+Path from 16 to 23: 16-23, Cost: 325
+Path from 16 to 24: 16-17-24, Cost: 679
+Path from 17 to 0: No path, Cost: inf
+Path from 17 to 1: No path, Cost: inf
+Path from 17 to 2: No path, Cost: inf
+Path from 17 to 3: No path, Cost: inf
+Path from 17 to 4: No path, Cost: inf
+Path from 17 to 5: No path, Cost: inf
+Path from 17 to 6: No path, Cost: inf
+Path from 17 to 7: No path, Cost: inf
+Path from 17 to 8: No path, Cost: inf
+Path from 17 to 9: No path, Cost: inf
+Path from 17 to 10: No path, Cost: inf
+Path from 17 to 11: No path, Cost: inf
+Path from 17 to 12: No path, Cost: inf
+Path from 17 to 13: No path, Cost: inf
+Path from 17 to 14: No path, Cost: inf
+Path from 17 to 15: No path, Cost: inf
+Path from 17 to 16: No path, Cost: inf
+Path from 17 to 18: No path, Cost: inf
+Path from 17 to 19: No path, Cost: inf
+Path from 17 to 20: No path, Cost: inf
+Path from 17 to 21: No path, Cost: inf
+Path from 17 to 22: No path, Cost: inf
+Path from 17 to 23: No path, Cost: inf
+Path from 17 to 24: 17-24, Cost: 392
+Path from 18 to 0: No path, Cost: inf
+Path from 18 to 1: No path, Cost: inf
+Path from 18 to 2: No path, Cost: inf
+Path from 18 to 3: No path, Cost: inf
+Path from 18 to 4: No path, Cost: inf
+Path from 18 to 5: No path, Cost: inf
+Path from 18 to 6: No path, Cost: inf
+Path from 18 to 7: No path, Cost: inf
+Path from 18 to 8: No path, Cost: inf
+Path from 18 to 9: No path, Cost: inf
+Path from 18 to 10: No path, Cost: inf
+Path from 18 to 11: No path, Cost: inf
+Path from 18 to 12: No path, Cost: inf
+Path from 18 to 13: No path, Cost: inf
+Path from 18 to 14: No path, Cost: inf
+Path from 18 to 15: No path, Cost: inf
+Path from 18 to 16: No path, Cost: inf
+Path from 18 to 17: No path, Cost: inf
+Path from 18 to 19: No path, Cost: inf
+Path from 18 to 20: No path, Cost: inf
+Path from 18 to 21: No path, Cost: inf
+Path from 18 to 22: No path, Cost: inf
+Path from 18 to 23: No path, Cost: inf
+Path from 18 to 24: No path, Cost: inf
+Path from 19 to 0: No path, Cost: inf
+Path from 19 to 1: No path, Cost: inf
+Path from 19 to 2: No path, Cost: inf
+Path from 19 to 3: No path, Cost: inf
+Path from 19 to 4: No path, Cost: inf
+Path from 19 to 5: No path, Cost: inf
+Path from 19 to 6: No path, Cost: inf
+Path from 19 to 7: No path, Cost: inf
+Path from 19 to 8: No path, Cost: inf
+Path from 19 to 9: No path, Cost: inf
+Path from 19 to 10: No path, Cost: inf
+Path from 19 to 11: No path, Cost: inf
+Path from 19 to 12: No path, Cost: inf
+Path from 19 to 13: No path, Cost: inf
+Path from 19 to 14: No path, Cost: inf
+Path from 19 to 15: No path, Cost: inf
+Path from 19 to 16: No path, Cost: inf
+Path from 19 to 17: No path, Cost: inf
+Path from 19 to 18: No path, Cost: inf
+Path from 19 to 20: No path, Cost: inf
+Path from 19 to 21: No path, Cost: inf
+Path from 19 to 22: 19-22, Cost: 146
+Path from 19 to 23: No path, Cost: inf
+Path from 19 to 24: No path, Cost: inf
+Path from 20 to 0: No path, Cost: inf
+Path from 20 to 1: No path, Cost: inf
+Path from 20 to 2: No path, Cost: inf
+Path from 20 to 3: No path, Cost: inf
+Path from 20 to 4: No path, Cost: inf
+Path from 20 to 5: No path, Cost: inf
+Path from 20 to 6: No path, Cost: inf
+Path from 20 to 7: No path, Cost: inf
+Path from 20 to 8: No path, Cost: inf
+Path from 20 to 9: No path, Cost: inf
+Path from 20 to 10: No path, Cost: inf
+Path from 20 to 11: No path, Cost: inf
+Path from 20 to 12: No path, Cost: inf
+Path from 20 to 13: No path, Cost: inf
+Path from 20 to 14: No path, Cost: inf
+Path from 20 to 15: No path, Cost: inf
+Path from 20 to 16: No path, Cost: inf
+Path from 20 to 17: No path, Cost: inf
+Path from 20 to 18: No path, Cost: inf
+Path from 20 to 19: No path, Cost: inf
+Path from 20 to 21: No path, Cost: inf
+Path from 20 to 22: No path, Cost: inf
+Path from 20 to 23: No path, Cost: inf
+Path from 20 to 24: 20-24, Cost: 76
+Path from 21 to 0: No path, Cost: inf
+Path from 21 to 1: No path, Cost: inf
+Path from 21 to 2: No path, Cost: inf
+Path from 21 to 3: No path, Cost: inf
+Path from 21 to 4: No path, Cost: inf
+Path from 21 to 5: No path, Cost: inf
+Path from 21 to 6: No path, Cost: inf
+Path from 21 to 7: No path, Cost: inf
+Path from 21 to 8: No path, Cost: inf
+Path from 21 to 9: No path, Cost: inf
+Path from 21 to 10: No path, Cost: inf
+Path from 21 to 11: No path, Cost: inf
+Path from 21 to 12: No path, Cost: inf
+Path from 21 to 13: No path, Cost: inf
+Path from 21 to 14: No path, Cost: inf
+Path from 21 to 15: No path, Cost: inf
+Path from 21 to 16: No path, Cost: inf
+Path from 21 to 17: No path, Cost: inf
+Path from 21 to 18: No path, Cost: inf
+Path from 21 to 19: No path, Cost: inf
+Path from 21 to 20: No path, Cost: inf
+Path from 21 to 22: No path, Cost: inf
+Path from 21 to 23: No path, Cost: inf
+Path from 21 to 24: No path, Cost: inf
+Path from 22 to 0: No path, Cost: inf
+Path from 22 to 1: No path, Cost: inf
+Path from 22 to 2: No path, Cost: inf
+Path from 22 to 3: No path, Cost: inf
+Path from 22 to 4: No path, Cost: inf
+Path from 22 to 5: No path, Cost: inf
+Path from 22 to 6: No path, Cost: inf
+Path from 22 to 7: No path, Cost: inf
+Path from 22 to 8: No path, Cost: inf
+Path from 22 to 9: No path, Cost: inf
+Path from 22 to 10: No path, Cost: inf
+Path from 22 to 11: No path, Cost: inf
+Path from 22 to 12: No path, Cost: inf
+Path from 22 to 13: No path, Cost: inf
+Path from 22 to 14: No path, Cost: inf
+Path from 22 to 15: No path, Cost: inf
+Path from 22 to 16: No path, Cost: inf
+Path from 22 to 17: No path, Cost: inf
+Path from 22 to 18: No path, Cost: inf
+Path from 22 to 19: No path, Cost: inf
+Path from 22 to 20: No path, Cost: inf
+Path from 22 to 21: No path, Cost: inf
+Path from 22 to 23: No path, Cost: inf
+Path from 22 to 24: No path, Cost: inf
+Path from 23 to 0: No path, Cost: inf
+Path from 23 to 1: No path, Cost: inf
+Path from 23 to 2: No path, Cost: inf
+Path from 23 to 3: No path, Cost: inf
+Path from 23 to 4: No path, Cost: inf
+Path from 23 to 5: No path, Cost: inf
+Path from 23 to 6: No path, Cost: inf
+Path from 23 to 7: No path, Cost: inf
+Path from 23 to 8: No path, Cost: inf
+Path from 23 to 9: No path, Cost: inf
+Path from 23 to 10: No path, Cost: inf
+Path from 23 to 11: No path, Cost: inf
+Path from 23 to 12: No path, Cost: inf
+Path from 23 to 13: No path, Cost: inf
+Path from 23 to 14: No path, Cost: inf
+Path from 23 to 15: No path, Cost: inf
+Path from 23 to 16: No path, Cost: inf
+Path from 23 to 17: No path, Cost: inf
+Path from 23 to 18: No path, Cost: inf
+Path from 23 to 19: No path, Cost: inf
+Path from 23 to 20: No path, Cost: inf
+Path from 23 to 21: No path, Cost: inf
+Path from 23 to 22: No path, Cost: inf
+Path from 23 to 24: No path, Cost: inf
+Path from 24 to 0: No path, Cost: inf
+Path from 24 to 1: No path, Cost: inf
+Path from 24 to 2: No path, Cost: inf
+Path from 24 to 3: No path, Cost: inf
+Path from 24 to 4: No path, Cost: inf
+Path from 24 to 5: No path, Cost: inf
+Path from 24 to 6: No path, Cost: inf
+Path from 24 to 7: No path, Cost: inf
+Path from 24 to 8: No path, Cost: inf
+Path from 24 to 9: No path, Cost: inf
+Path from 24 to 10: No path, Cost: inf
+Path from 24 to 11: No path, Cost: inf
+Path from 24 to 12: No path, Cost: inf
+Path from 24 to 13: No path, Cost: inf
+Path from 24 to 14: No path, Cost: inf
+Path from 24 to 15: No path, Cost: inf
+Path from 24 to 16: No path, Cost: inf
+Path from 24 to 17: No path, Cost: inf
+Path from 24 to 18: No path, Cost: inf
+Path from 24 to 19: No path, Cost: inf
+Path from 24 to 20: No path, Cost: inf
+Path from 24 to 21: No path, Cost: inf
+Path from 24 to 22: No path, Cost: inf
+Path from 24 to 23: No path, Cost: inf
+
