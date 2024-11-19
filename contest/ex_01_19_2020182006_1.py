@@ -33,16 +33,17 @@ for k in range(num_vertex):
                     D[i][j] = D[i][k] + D[k][j]
                     P[i][j] = P[k][j]
 
-def path(i, j):
-    if P[i][j] == -1:
-        return "No path"
-    if P[i][j] == i:
-        return f'{i}-{j}'
-    else:
-        return f'{path(i, P[i][j])}-{j}'
 
+def path(i,j):
+    if P[i][j] == -1:
+        return "no path"
+    if P[i][j] == i:
+        return f'->{j}'
+    else:
+        k = P[i][j]
+        return path(i, k) + path(k, j)
 
 for i in range(num_vertex):
-    for j in range(num_vertex):
-        if i != j:
-            print(f'Path from {i} to {j}: {path(i,j)}, Cost: {D[i][j]}')
+    for j in range(i+1, num_vertex):
+        p= path(i,j)
+        print(f'{i}{p}', D[i][j]) #300 line
