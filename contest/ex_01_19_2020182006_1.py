@@ -1,5 +1,3 @@
-import heapq
-
 edges=[
     (0, 2, 267), (0, 10, 292), (0, 14, 162), (0, 17, 311), (0, 23, 281),
     (1, 11, 331), (1, 19, 307), (1, 22, 395), (2, 6, 256), (2, 10, 319),
@@ -14,55 +12,41 @@ edges=[
     (16, 17, 287), (16, 23, 325), (17, 24, 392), (19, 22, 146), (20, 24, 76)
 ]
 num_vertex = 25
+INF = float('inf')
 
+# Initialize distance matrix with infinity
+D = [[INF] * num_vertex for _ in range(num_vertex)]
+# Initialize predecessor matrix with -1
+P = [[-1] * num_vertex for _ in range(num_vertex)]
 
-def floyd_warshall(edges, num_vertex):
-    # Initialize distance matrix with infinity
-    dist = [[float('inf')] * num_vertex for _ in range(num_vertex)]
+# Set diagonal to 0
+for i in range(num_vertex):
+    D[i][i] = 0
 
-    # Initialize path matrix
-    path = [[-1] * num_vertex for _ in range(num_vertex)]
+# Fill in the direct edges
+for i, j, w in edges:
+    D[i][j] = w
+    P[i][j] = i
 
-    # Set distance for edges
-    for u, v, weight in edges:
-        dist[u][v] = weight
-        dist[v][u] = weight  # Undirected graph
-        path[u][v] = v
-        path[v][u] = u
-
-    # Set diagonal to 0
+# Floyd-Warshall algorithm
+for k in range(num_vertex):
     for i in range(num_vertex):
-        dist[i][i] = 0
-        path[i][i] = i
+        for j in range(num_vertex):
+            if D[i][k] != INF and D[k][j] != INF:
+                if D[i][j] > D[i][k] + D[k][j]:
+                    D[i][j] = D[i][k] + D[k][j]
+                    P[i][j] = P[k][j]
 
-    # Floyd-Warshall algorithm
-    for k in range(num_vertex):
-        for i in range(num_vertex):
-            for j in range(num_vertex):
-                if dist[i][j] > dist[i][k] + dist[k][j]:
-                    dist[i][j] = dist[i][k] + dist[k][j]
-                    path[i][j] = path[i][k]
+def path(i, j):
+    if P[i][j] == -1:
+        return "No path"
+    if P[i][j] == i:
+        return f'{i}-{j}'
+    else:
+        return f'{path(i, P[i][j])}-{j}'
 
-    return dist, path
-
-
-def get_path(path, start, end):
-    if path[start][end] == -1:
-        return []
-
-    route = [start]
-    while start != end:
-        start = path[start][end]
-        route.append(start)
-    return route
-
-
-# Run algorithm
-distances, paths = floyd_warshall(edges, num_vertex)
-
-# Print results
+# Print all paths and costs
 for i in range(num_vertex):
     for j in range(num_vertex):
         if i != j:
-            route = get_path(paths, i, j)
-            print(f"Path from {i} to {j}: {route}, Cost: {distances[i][j]}")
+            print(f'Path from {i} to {j}: {path(i,j)}, Cost: {D[i][j]}')
