@@ -14,36 +14,34 @@ edges=[
 num_vertex = 25
 INF = float('inf')
 
-D = [[INF] * num_vertex for _ in range(num_vertex)]
-P = [[-1] * num_vertex for _ in range(num_vertex)]
 
+D = [[INF] * num_vertex for _ in range(num_vertex)]  # 2차원 배열로 만들기
+P = [[-1] * num_vertex for _ in range(num_vertex)]
 
 for i in range(num_vertex):
     D[i][i] = 0
 
 for i, j, w in edges:
     D[i][j] = w
-    P[i][j] = i
+    D[j][i] = w
 
 for k in range(num_vertex):
     for i in range(num_vertex):
         for j in range(num_vertex):
-            if D[i][k] != INF and D[k][j] != INF:
+            if D[i][k] != INF and D[k][j] != INF:  # 경로가 존재하는 경우만 처리
                 if D[i][j] > D[i][k] + D[k][j]:
                     D[i][j] = D[i][k] + D[k][j]
-                    P[i][j] = P[k][j]
-
+                    P[i][j] = k
 
 def path(i,j):
-    if P[i][j] == -1:
-        return "no path"
-    if P[i][j] == i:
-        return f'->{j}'
-    else:
+    if P[i][j] != -1:
         k = P[i][j]
-        return path(i, k) + path(k, j)
+        pik = path(i,k)
+        pkj = path(k,j)
+        return f'{pik}{pkj}'
+    return f'->{j}'
 
 for i in range(num_vertex):
     for j in range(i+1, num_vertex):
         p= path(i,j)
-        print(f'{i}{p}', D[i][j]) #300 line
+        print(f'{i}{p}', D[i][j]) #300 줄이 되도록
