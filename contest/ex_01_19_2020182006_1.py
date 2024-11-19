@@ -44,4 +44,4 @@ def path(i,j):
 for i in range(num_vertex):
     for j in range(i+1, num_vertex):
         p= path(i,j)
-        print(f'{i}{p}', D[i][j]) #300 줄이 되도록
+        print(f'{i}{p}', '(', D[i][j],')') #300 줄이 되도록
