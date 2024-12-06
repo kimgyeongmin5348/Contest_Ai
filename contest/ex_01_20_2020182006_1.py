@@ -62,15 +62,26 @@ def build_tsp_sequence(mst, start):
     dfs(start, visited, sequence)
     return sequence
 
+
 def find_shortcut(sequence, edges):
-    edge_set = {(min(u, v), max(u, v)) for u, v, w in edges}
+    # 원본 그래프의 모든 간선 정보를 저장
+    edge_weights = {}
+    for u, v, w in edges:
+        edge_weights[(min(u, v), max(u, v))] = w
+
     shortcut_sequence = []
     shortcut_sequence.append(sequence[0])
+    current = sequence[0]
 
+    # 현재 위치에서 다음으로 갈 수 있는 정점 찾기
     for i in range(1, len(sequence)):
-        u, v = sequence[i-1], sequence[i]
-        if (min(u, v), max(u, v)) in edge_set:
-            shortcut_sequence.append(v)
+        next_vertex = sequence[i]
+        edge_key = (min(current, next_vertex), max(current, next_vertex))
+
+        # 직접 연결된 간선이 있는 경우에만 추가
+        if edge_key in edge_weights:
+            shortcut_sequence.append(next_vertex)
+            current = next_vertex
 
     return shortcut_sequence
 
@@ -80,6 +91,6 @@ mst_result = prim(8, graph)
 sequence = build_tsp_sequence(mst_result, 8)
 final_sequence = find_shortcut(sequence, edges)
 
-print("MST:", mst_result)
-print("Initial TSP Sequence:", sequence)
-print("Optimized TSP Sequence:", final_sequence)
+print("최소 신장 트리(MST):", mst_result)
+print("초기 TSP 순서:", sequence)
+print("최적화된 TSP 순서:", final_sequence)
