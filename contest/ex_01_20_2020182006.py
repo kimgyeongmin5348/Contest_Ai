@@ -16,7 +16,6 @@ edges = [
 ]
 num_vertex = 25
 
-# Prim 알고리즘
 def build_graph(edges):
     graph = {i: [] for i in range(num_vertex)}
     for u, v, w in edges:
@@ -64,7 +63,6 @@ def build_tsp_sequence(mst, start):
 
 
 def find_shortcut(sequence, edges):
-    # 원본 그래프의 모든 간선 정보를 저장
     edge_weights = {}
     for u, v, w in edges:
         edge_weights[(min(u, v), max(u, v))] = w
@@ -85,7 +83,6 @@ def find_shortcut(sequence, edges):
 
     return shortcut_sequence
 
-# 실행
 graph = build_graph(edges)
 mst_result = prim(8, graph)
 sequence = build_tsp_sequence(mst_result, 8)
