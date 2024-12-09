@@ -22,6 +22,7 @@ n_edges = len(edges)
 # build adj set from edges
 from collections import defaultdict
 import random
+random.seed('hello')
 g = defaultdict(set)
 for i in range(len(edges)):
     u, v, w = edges[i]
