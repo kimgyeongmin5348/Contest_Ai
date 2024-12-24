@@ -1,9 +1,7 @@
 import random
 
-# 이전에 선택된 챔피언들
 previous_champions = ['제드', '아우렐리온 솔', '킨드레드', '베인', '잔나', '피오라', '피들스틱']
 
-# 전체 챔피언 목록 (일부 예시)
 champions = ['가렌', '갈리오', '갱플랭크', '그라가스', '그레이브즈', '그웬', '나르', '나미', '나서스',
              '노틸러스', '녹턴', '누누와 윌럼프', '니달리', '니코', '닐라', '다리우스', '다이애나',
              '드레이븐', '라이즈', '라칸', '람머스', '럭스', '럼블', '레나타 글라스크', '레넥톤',
@@ -22,9 +20,8 @@ champions = ['가렌', '갈리오', '갱플랭크', '그라가스', '그레이�
              '케인', '케일', '코르키', '킨드레드', '탈론', '트리스타나', '트린다미어', '트위스티드 페이트',
              '트위치', '티모', '파이크', '판테온', '피들스틱', '피오라', '피즈', '하이머딩거', '헤카림']
 
-# 이전에 선택된 챔피언들을 제외한 목록 생성
-available_champions = [champ for champ in champions if champ not in previous_champions]
 
-# 랜덤으로 챔피언 선택
-random_champion = random.choice(available_champions)
-random_champion
+available_champions = [champ for champ in champions if champ not in previous_champions]
+print(random.choice(available_champions))
+# input('엔터를 누르면 종료됩니다...')
+
